@@ -6,7 +6,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import com.google.gson.GsonBuilder
-import com.rs.groww.util.Constants.API_KEY
 
 object RetrofitInstance {
     private const val BASE_URL = "https://www.alphavantage.co/"
